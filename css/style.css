@@ -1,0 +1,13 @@
+/* declaracão de variaveis */
+:root {
+    --base: #303446;
+    --crust: #232634;
+    --surface: #51576d;
+    --text: #c6d0f5;
+    --subtext: #b5bfe2;
+    --blue: #8caaee;
+    --teal: #81c8be;
+    --peach: #ef9f76;
+    --red: #e78284;
+    --mauve: #ca9ee6;
+}
