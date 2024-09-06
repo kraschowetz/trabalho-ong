@@ -11,3 +11,31 @@
     --red: #e78284;
     --mauve: #ca9ee6;
 }
+
+body {
+	background: var(--base);
+	margin: 0px;
+	padding: 0px;
+}
+
+/* conteiner é a div raiz da página */
+.conteiner {
+	width: 100vw;
+	height: fit-content;
+	min-height: 100vh;
+}
+
+
+/* section é uma caixa invisível e de maior prioridade para o conteúdo */
+.section {
+	width: 100vw;
+	height: fit-content;
+
+}
+
+/* box é uma caixa vísivel para o conteúdo */ 
+.box {
+	width: 25vw;
+	height: fit-content;
+}
+
