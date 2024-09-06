@@ -114,6 +114,13 @@ a {
 	color: var(--peach);
 }
 
+.titulo-base {
+	font-size: 32pt;
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: var(--base);
+}
+
 .paragrafo-m {
 	color: var(--text);
 	font-size: 16pt;
