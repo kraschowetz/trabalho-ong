@@ -74,7 +74,7 @@ a {
 	align-items: center;
 	justify-content: center;
 
-	background-color: var(--surface);
+	background-color: var(--text);
 
 	border-radius: 5vh;
 	margin: 1vh;
@@ -83,6 +83,27 @@ a {
 }
 
 .div-btn:hover {
+	scale: 1.1;
+}
+
+.div-btn-inv {
+	width: 25vw;
+	height: fit-content;
+	min-height: 10vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--base);
+
+	border-radius: 5vh;
+	margin: 1vh;
+	
+	transition: ease-in-out .2s;
+}
+
+.div-btn-inv:hover {
 	scale: 1.1;
 }
 
