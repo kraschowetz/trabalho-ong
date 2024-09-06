@@ -26,15 +26,33 @@ body {
 }
 
 
-/* section é uma caixa invisível e de maior prioridade para o conteúdo */
-.section {
+/* section é uma caixa de maior prioridade para o conteúdo */
+.section-base {
 	width: 100vw;
 	height: fit-content;
+	min-height: 25vh;
 	
 	display: flex;
 	flex-direction: column;
 
 	align-items: center;
+	justify-content: center;
+
+	background-color: var(--base);
+}
+
+.section-branca {
+	width: 100vw;
+	height: fit-content;
+	min-height: 25vh;
+	
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--subtext);
 }
 
 /* box é uma caixa vísivel para o conteúdo */ 
@@ -43,3 +61,21 @@ body {
 	height: fit-content;
 }
 
+.titulo-peach {
+	font-size: 32pt;
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: var(--peach);
+}
+
+.paragrafo-m {
+	color: var(--text);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragrafo-m-inv {
+	color: var(--base);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
