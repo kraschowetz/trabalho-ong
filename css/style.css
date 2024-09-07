@@ -1,25 +1,25 @@
 /* declaracão de variaveis */
 :root {
-    --base: #303446;
-    --crust: #232634;
-    --surface: #51576d;
-    --text: #c6d0f5;
-    --subtext: #b5bfe2;
-    --blue: #8caaee;
-    --teal: #81c8be;
-    --peach: #ef9f76;
-    --red: #e78284;
-    --mauve: #ca9ee6;
+	/* cores */
+	--base: #303446;
+	--crust: #232634;
+	--surface: #51576d;
+	--text: #c6d0f5;
+	--subtext: #a5adce;
+	--blue: #8caaee;
+	--teal: #81c8be;
+	--peach: #ef9f76;
+	--red: #e78284;
+	--mauve: #ca9ee6;
+
+	/* espacamentos  */
+	--largura-paragrafo: 50vw;
 }
 
 body {
 	background: var(--base);
 	margin: 0px;
 	padding: 0px;
-}
-
-a {
-	text-decoration: none;
 }
 
 /* conteiner é a div raiz da página */
@@ -65,10 +65,17 @@ a {
 	height: fit-content;
 }
 
+/* botões */
+
 .div-btn {
 	width: 25vw;
 	height: fit-content;
 	min-height: 10vh;
+
+
+.div-btn-redondo {
+	height: fit-content
+}
 
 	display: flex;
 	align-items: center;
@@ -107,6 +114,53 @@ a {
 	scale: 1.1;
 }
 
+.texto-btn {
+	color: var(--text);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.texto-btn-inv {
+	color: var(--base);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.btn-texto-puro {
+	color: var(--text);
+	text-decoration: none;
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+	min-width: 15vw;
+	width: fit-content;
+
+	margin-top: 2.5vh;
+
+	transition: ease-in-out .1s;
+}
+
+.btn-texto-puro:hover {
+	scale: 1.075;
+}
+
+/* titulos */
+
+.titulo-principal {
+	font-size: 48pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 25vw;
+	text-align: center;
+	
+	color: var(--mauve);
+
+	margin-top: 25vh;
+	margin-bottom: 1vh;
+}
+
 .titulo-peach {
 	font-size: 32pt;
 	font-family: Arial, Helvetica, sans-serif;
@@ -121,14 +175,43 @@ a {
 	color: var(--base);
 }
 
+/* paragrafos */
+
+.subtitulo-principal {
+	color: var(--subtext);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 40vw;
+
+	margin-bottom: 40vh;
+}
+
 .paragrafo-m {
 	color: var(--text);
 	font-size: 16pt;
 	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: var(--largura-paragrafo);
+
+	margin-bottom: 10vh;
 }
 
 .paragrafo-m-inv {
 	color: var(--base);
 	font-size: 16pt;
 	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: var(--largura-paragrafo)
+}
+
+/* menus */
+
+.menu-topo {
+	width: 75vw;
+	height: 10vh;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
