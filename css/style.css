@@ -84,10 +84,6 @@ a {
 	height: fit-content;
 	min-height: 10vh;
 
-.div-btn-redondo {
-	height: fit-content
-}
-
 	display: flex;
 	align-items: center;
 	justify-content: center;

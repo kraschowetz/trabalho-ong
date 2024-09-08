@@ -6,13 +6,13 @@
 o css do site utiliza classes, ou seja, não é nescessário duplicar um elemento  
 do css para o reutilizar.
 
-> <h1 class="titulo-base">
-> <h1 class="titulo-base2">
+>   <h1 class="titulo-base">
+>   <h1 class="titulo-base2">
 > algo assim não é nescessário
 
-> <h1 class="titulo-base">
-> <h1 class="titulo-base">
-> o css pode ser usado dessa forma
+>   <h1 class="titulo-base">
+>   <h1 class="titulo-base">
+>o css pode ser usado dessa forma
 
 ## :root
 
@@ -57,8 +57,8 @@ o maior titulo da página, junto com um *subtitulo-principal* ocupa uma tela int
 um titulo genérico, tem sua cor indicada no nome de sua classe
 
 > ### exemplo:
-> <h1 class="**titulo-branco**">
-> <h1 class="**titulo-mauve**">
+>   <h1 class="**titulo-branco**">
+>   <h1 class="**titulo-mauve**">
 
 ## subtitulo principal
 
@@ -66,7 +66,7 @@ usado em conjunto de um *titulo-principal* para fazer uma tela de aprensetação
 
 ## paragrafo
 
-uma tag *<p>* formatada, seu nome indica seu tamanho - p, m ou g - e sua cor, podendo ser  
+uma tag *p* formatada, seu nome indica seu tamanho - p, m ou g - e sua cor, podendo ser  
 invertido ou não.  
 Um paragrafo invertido tem sua cor escura, caso contrario tem sua cor clara.
 
