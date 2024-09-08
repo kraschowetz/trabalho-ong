@@ -152,7 +152,18 @@ body {
 .titulo-principal {
 	font-size: 48pt;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bolder;
+	width: 25vw;
+	text-align: center;
+	
+	color: var(--mauve);
+
+	margin-top: 25vh;
+	margin-bottom: 1vh;
+}
+
+.titulo-principal2 {
+	font-size: 48pt;
+	font-family: Arial, Helvetica, sans-serif;
 	width: 25vw;
 	text-align: center;
 	
@@ -165,26 +176,23 @@ body {
 .titulo-peach {
 	font-size: 32pt;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bolder;
 
 	color: var(--peach);
-}
-
-.titulo-mauve {
-	font-size: 32pt;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bolder;
-
-	color: var(--mauve);
 }
 
 .titulo-base {
 	font-size: 32pt;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bolder;
 
 	color: var(--base);
 }
+
+
+.destacar-frase {
+		color: #ca9ee6; 
+		font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /* paragrafos */
 
@@ -216,7 +224,7 @@ body {
 	width: var(--largura-paragrafo)
 }
 
-/* menus */
+/* MENUS */
 
 .menu-topo {
 	width: 75vw;
@@ -226,3 +234,4 @@ body {
 	flex-direction: row;
 	justify-content: center;
 }
+
