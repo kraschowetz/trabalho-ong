@@ -6,12 +6,16 @@
 o css do site utiliza classes, ou seja, não é nescessário duplicar um elemento  
 do css para o reutilizar.
 
+>   ```
 >   <h1 class="titulo-base">
 >   <h1 class="titulo-base2">
+>   ```
 > algo assim não é nescessário
 
+>   ```
 >   <h1 class="titulo-base">
 >   <h1 class="titulo-base">
+>   ```
 >o css pode ser usado dessa forma
 
 ## :root
@@ -24,9 +28,11 @@ ao invés de digitar todos os valores manualmente, usa-se variaveis para
 agilizar o processo de escrita e refatoração do css
 
 > #### exemplo:
+> ```
 > color: #ca9ee6; :x:
 > se torna:
 > color: var(--mauve) :white_check_mark:
+> ```
 
 ## conteiner
 
@@ -57,8 +63,10 @@ o maior titulo da página, junto com um *subtitulo-principal* ocupa uma tela int
 um titulo genérico, tem sua cor indicada no nome de sua classe
 
 > ### exemplo:
+>   ```
 >   <h1 class="**titulo-branco**">
 >   <h1 class="**titulo-mauve**">
+>   ```
 
 ## subtitulo principal
 
