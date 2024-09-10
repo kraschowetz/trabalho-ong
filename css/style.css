@@ -143,6 +143,7 @@ a {
 	font-size: 16pt;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+	font-weight: bold;
 
 	min-width: 15vw;
 	width: fit-content;
@@ -239,7 +240,7 @@ a {
 	width: 100%;
 	background-color: var(--red);
 	height: 10vh;
-
+	text-decoration-thickness: 50%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
