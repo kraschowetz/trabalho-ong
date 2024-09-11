@@ -6,3 +6,5 @@
 * espabelecer um padrão na escrita do código (menos importante)
 * decidir cores finais do site
 * padronizar espacamentos
+* refatorar botões & input @ css
+
