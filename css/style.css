@@ -291,3 +291,59 @@ a {
 
 	background-color: var(--surface);
 }
+ 
+/* forms */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+
+    margin-top: 10pt;
+}
+
+form input {
+    color: var(--text);
+    background-color: var(--surface);
+
+    height: 22pt;
+    width: 25vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+
+    border-radius: 4pt;
+    border: solid var(--subtext);
+
+    box-shadow: none;
+    text-decoration: none;
+    text-shadow: none;
+    outline: none;
+
+    margin: 8pt;
+
+    transition: ease-in-out .1s;
+}
+
+form input::placeholder {
+    color: var(--base);
+    font-weight: normal;
+    opacity: 1;
+}
+
+form input:hover {
+    scale: 1.02;
+}
+
+form input:focus {
+    scale: 1.05;
+}
