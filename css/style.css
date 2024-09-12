@@ -1,16 +1,16 @@
 /* declaracão de variaveis */
 :root {
 	/* cores */
-	--base: #303446;
+	--base: #191b24;
 	--crust: #232634;
 	--surface: #51576d;
-	--text: #c6d0f5;
-	--subtext: #a5adce;
+	--text: #fbc3ff;
+	--subtext: #fbc3ff;
 	--blue: #8caaee;
 	--teal: #81c8be;
 	--peach: #ef9f76;
-	--red: #e78284;
-	--mauve: #ca9ee6;
+	--red: #db9dff;
+	--mauve: #db9dff;
 
 	/* espacamentos  */
 	--largura-paragrafo: 50vw;
@@ -39,7 +39,7 @@ a {
 	width: 100vw;
 	height: fit-content;
 	min-height: 25vh;
-	
+
 	display: flex;
 	flex-direction: column;
 
@@ -53,7 +53,7 @@ a {
 	width: 100vw;
 	height: fit-content;
 	min-height: 25vh;
-	
+
 	display: flex;
 	flex-direction: column;
 
@@ -67,7 +67,7 @@ a {
 	width: 100vw;
 	height: fit-content;
 	min-height: 25vh;
-	
+
 	display: flex;
 	flex-direction: column;
 
@@ -92,7 +92,7 @@ a {
 
 	border-radius: 5vh;
 	margin: 1vh;
-	
+
 	transition: ease-in-out .2s;
 }
 
@@ -113,7 +113,7 @@ a {
 
 	border-radius: 5vh;
 	margin: 1vh;
-	
+
 	transition: ease-in-out .2s;
 }
 
@@ -162,13 +162,13 @@ a {
 .titulo-principal {
 	font-size: 48pt;
 	font-family: Arial, Helvetica, sans-serif;
-	width: 25vw;
+	width: 40vw;
 	text-align: center;
-	
+
 	color: var(--mauve);
 
-	margin-top: 25vh;
-	margin-bottom: 1vh;
+	margin-top: 15vh;
+	margin-bottom: 5vh;
 }
 
 .titulo-peach {
@@ -185,7 +185,7 @@ a {
 	color: var(--mauve);
 }
 
-.titulo-mauve h2{
+.titulo-mauve h2 {
 	font-size: 30pt;
 }
 
@@ -216,13 +216,23 @@ a {
 	margin-bottom: 10vh;
 }
 
+.subtitulo-contato {
+	color: var(--subtext);
+	font-size: 22pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	width: 90vw;
+
+	margin-bottom: 10vh;
+}
+
 .paragrafo-m {
 	color: var(--text);
 	font-size: 18pt;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	width: 40vw;
-	
+
 
 	margin-bottom: 10vh;
 }
@@ -291,59 +301,59 @@ a {
 
 	background-color: var(--surface);
 }
- 
+
 /* forms */
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 form label {
-    color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 14pt;
+	color: var(--text);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
 
-    margin-top: 10pt;
+	margin-top: 10pt;
 }
 
 form input {
-    color: var(--text);
-    background-color: var(--surface);
+	color: var(--text);
+	background-color: var(--surface);
 
-    height: 22pt;
-    width: 25vw;
+	height: 22pt;
+	width: 25vw;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    font-weight: bold;
-    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
 
-    border-radius: 4pt;
-    border: solid var(--subtext);
+	border-radius: 4pt;
+	border: solid var(--subtext);
 
-    box-shadow: none;
-    text-decoration: none;
-    text-shadow: none;
-    outline: none;
+	box-shadow: none;
+	text-decoration: none;
+	text-shadow: none;
+	outline: none;
 
-    margin: 8pt;
+	margin: 8pt;
 
-    transition: ease-in-out .1s;
+	transition: ease-in-out .1s;
 }
 
 form input::placeholder {
-    color: var(--base);
-    font-weight: normal;
-    opacity: 1;
+	color: var(--base);
+	font-weight: normal;
+	opacity: 1;
 }
 
 form input:hover {
-    scale: 1.02;
+	scale: 1.02;
 }
 
 form input:focus {
-    scale: 1.05;
+	scale: 1.05;
 }
