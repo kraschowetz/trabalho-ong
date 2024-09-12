@@ -76,6 +76,10 @@ a {
 
 	background-color: var(--subtext);
 }
+.section-branca div{
+	display: flex;
+	flex-direction: row;
+}
 
 /* botões */
 
@@ -250,6 +254,7 @@ a {
 .paragrafo-m-inv {
 	color: var(--base);
 	font-size: 16pt;
+	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	width: var(--largura-paragrafo)
@@ -381,6 +386,7 @@ a {
 	font-size: 25pt;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 
