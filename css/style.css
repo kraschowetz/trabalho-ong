@@ -117,6 +117,7 @@ a {
 	transition: ease-in-out .2s;
 }
 
+
 .div-btn-inv:hover {
 	scale: 1.1;
 }
@@ -136,6 +137,7 @@ a {
 	text-align: center;
 	text-decoration: none;
 }
+
 
 .btn-texto-puro {
 	color: var(--base);
@@ -162,7 +164,7 @@ a {
 .titulo-principal {
 	font-size: 48pt;
 	font-family: Arial, Helvetica, sans-serif;
-	width: 40vw;
+	width: 65vw;
 	text-align: center;
 
 	color: var(--mauve);
@@ -216,25 +218,33 @@ a {
 	margin-bottom: 10vh;
 }
 
-.subtitulo-contato {
-	color: var(--subtext);
-	font-size: 22pt;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: justify;
-	width: 90vw;
-
-	margin-bottom: 10vh;
-}
 
 .paragrafo-m {
 	color: var(--text);
 	font-size: 18pt;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	width: 40vw;
+	width: 80vw;
+	
 
+	margin-bottom: 5vh;
+}
 
-	margin-bottom: 10vh;
+.subtitulo-contato {
+	color: var(--subtext);
+	font-size: 22pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	width: 90vw;
+	height: 3vw;
+}
+
+.paragrafo-m-contato {
+	color: var(--text);
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	width: 35vw;
 }
 
 .paragrafo-m-inv {
@@ -286,6 +296,12 @@ a {
 	column-gap: 5vw;
 }
 
+.grid-inv{
+	display: flex;
+	flex-direction: column;
+	gap: 5vw;
+}
+
 .frame {
 	width: 33vw;
 	min-height: fit-content;
@@ -301,6 +317,72 @@ a {
 
 	background-color: var(--surface);
 }
+
+/*frames tela de contato*/
+
+.frame-contato{
+	width: 80vw;
+	min-height: fit-content;
+	min-height: 10vh;
+
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+
+	border-radius: 10pt;
+	padding: 1vh;
+
+	background-color: var(--surface);
+	margin-bottom: 5vw;
+}
+
+.frame-contato h2{
+	font-size: 28pt;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 5vh;
+
+	color: var(--mauve);
+}
+
+.frame-contato img{
+	margin: 5vh;
+}
+
+.btn-contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5vh;
+}
+
+.frame-contato img{
+	border-radius: 30pt;
+	padding: 2vh;
+}
+
+.background{
+	background-color: var(--surface);
+	width: 100%;
+}
+
+.background p{
+	margin: 6vh;
+	text-align: center;
+	color: var(--text);
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background h2{
+	margin: 6vh;
+	text-align: center;
+	color: var(--text);
+	font-size: 25pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 /* forms */
 
@@ -345,7 +427,7 @@ form input {
 }
 
 form input::placeholder {
-	color: var(--base);
+	color: var(--subtext);
 	font-weight: normal;
 	opacity: 1;
 }
