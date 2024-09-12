@@ -208,6 +208,9 @@ a {
 	color: var(--base);
 }
 
+.extra-padding-bottom {
+	padding-bottom: 7vh;
+}
 
 /* paragrafos */
 
@@ -386,15 +389,14 @@ a {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /* forms */
 
 form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 4vh;
+	padding-bottom: 14vh;
 }
 
 form label {
@@ -443,4 +445,16 @@ form input:hover {
 
 form input:focus {
 	scale: 1.05;
+}
+
+.send-input-button {
+	 margin-top: 2.5vh;
+	height: 30pt;
+	transition: ease-in .1s;
+}
+
+.send_input_button:hover {
+	scale: 1.1;
+	background-color: var(--text);
+	color: var(--base);
 }
